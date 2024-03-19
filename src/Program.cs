@@ -12,7 +12,7 @@ class Program
             unit = "C";
             return $"{tempAmount}  {unit}";
         }
-        if (unit.ToUpper() == "C")
+        else if (unit.ToUpper() == "C")
         { //to fahrenheit
             tempAmount = (tempAmount * 1.8) + 32;
             unit = "F";
